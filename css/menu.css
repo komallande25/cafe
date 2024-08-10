@@ -1,0 +1,51 @@
+.heading2{
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 50px;
+    color:  #33272a;
+    font-size: 50px;
+}
+
+.coffee-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.coffee{
+    height: 350px;
+    background-color: #fffffe;
+    width: 250px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.coffee-img{
+height:200px;
+display: block;
+margin: 0px auto;
+border-radius: 30px 30px ;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    color: #fffffe;
+    background-color: #33272a;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.coffee:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 5px #ffc6c7;
+}
